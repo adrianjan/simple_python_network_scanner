@@ -19,6 +19,8 @@ How does it work.
 
 ## Script_2
 
+1. Libraries - argparse, socket, paramiko
+
 The program starts by parsing the command line arguments and constructing a list of ports to scan. It then scans each port using the `scan_port` function and builds a list of open ports. If port 22 (the SSH port) is open, it reads the list of passwords from the specified file and attempts to brute-force the SSH login using the `ssh_brute_force` function.
 
 The `scan_port` function uses the Python `socket` module to create a TCP socket and attempts to connect to the specified port on the target host. If the connection is successful, it returns `True`, indicating that the port is open. Otherwise, it returns `False`.

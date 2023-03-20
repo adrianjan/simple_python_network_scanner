@@ -1,7 +1,5 @@
 ## Simple network scanner and port 22 brute force script in python
 
-# Simple port scanner and brute-force attack scripts
-
 Both scripts perform a port scan on a user-specified IP address and identifi open ports. 
 If port 22 is open, it prompts the user to perform a brute force attack to gain unauthorized access to the SSH server.
 
